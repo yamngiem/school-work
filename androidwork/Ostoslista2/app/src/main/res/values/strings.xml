@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ostoslista2</string>
+    <string name="add_item">Lisää tuote</string>
+    <string name="cancel">Peruuta</string>
+    <string name="add">Lisää</string>
+    <string name="invalid_item">Virheellinen tuote. Tarkista nimi ja määrä.</string>
+    <string name="item_added">Tuote lisätty: %s</string>
+    <string name="item_deleted">Tuote poistettu</string>
+    <string name="item_edit">Muokkaa</string>
+
+    <!-- Lisää muita tarvittavia merkkijonoja tarpeesi mukaan -->
+</resources>

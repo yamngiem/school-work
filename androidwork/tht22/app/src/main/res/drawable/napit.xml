@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="8dp" />
+
+    <gradient
+        android:startColor="#706966"
+        android:centerColor="@android:color/darker_gray"
+        android:endColor="@android:color/darker_gray"
+        android:angle="90" /> <!-- 90 astetta tarkoittaa alhaalta ylöspäin -->
+
+</shape>

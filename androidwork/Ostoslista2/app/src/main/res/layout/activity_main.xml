@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+   >
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="ShoppinList" />
+
+
+    <ListView
+        android:id="@+id/lvShoppingList"
+        android:layout_width="match_parent"
+        android:layout_height="466dp"
+        android:layout_below="@id/btadd"
+        android:layout_marginTop="16dp"
+
+        android:choiceMode="singleChoice"
+
+        android:longClickable="true" />
+
+
+    <Button
+        android:id="@+id/btadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lisää" />
+
+    <Button
+        android:id="@+id/btShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Näytä lista" />
+
+</LinearLayout>

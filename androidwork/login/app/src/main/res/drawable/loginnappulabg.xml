@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shape määrittää pyöristetyt reunat -->
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <corners android:radius="20dp" />
+
+
+        </shape>
+    </item>
+    <!-- Bitmap määrittää kuvan -->
+
+</layer-list>

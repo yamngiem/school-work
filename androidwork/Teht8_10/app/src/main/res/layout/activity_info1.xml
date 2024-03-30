@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TextView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoActivity_1">
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/enter_name" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:text="@string/owns_a_car" />
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="number"
+        android:hint="@string/enter_car_age"/>
+
+    <Switch
+        android:id="@+id/switchFourWheelDrive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_four_wheel"
+        android:visibility="invisible"
+        />
+
+    <RadioButton
+        android:id="@+id/radioButtonStation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/station_wagon"
+        android:visibility="invisible"/>
+
+    <RadioButton
+        android:id="@+id/radioButtonSedan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sedan"
+        android:visibility="invisible"/>
+
+    <RadioButton
+        android:id="@+id/radioButtonSport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sport"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textViewSummary"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="@string/text_view" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
+
+</LinearLayout>

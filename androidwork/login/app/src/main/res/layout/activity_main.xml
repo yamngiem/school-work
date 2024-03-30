@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/taustisnallepuhel"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="208dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/etPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="209dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="52dp"
+        android:hint="Password"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/ibLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView"
+        android:layout_width="261dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/etUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/ibCancel"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/custom_button1"
+        android:contentDescription="Cancel Button"
+        android:paddingHorizontal="4dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/cancelnappi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibLogin"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_button1"
+        android:contentDescription="Login Button"
+        android:paddingHorizontal="4dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/loginnappi"
+        app:layout_constraintBottom_toTopOf="@+id/ibCancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

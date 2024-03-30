@@ -1,0 +1,30 @@
+<!-- res/layout/dialog_edit_item.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuote ja määrä"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextNewItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tuote"/>
+
+    <EditText
+        android:id="@+id/editTextNewItemCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Määrä"
+        android:inputType="number"/>
+
+</LinearLayout>

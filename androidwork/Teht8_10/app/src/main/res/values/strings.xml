@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Teht8_10</string>
+
+    <string name="enter_name">Name</string>
+    <string name="owns_a_car">Owns a car</string>
+    <string name="enter_car_age">Age of the car</string>
+    <string name="switch_four_wheel">Four wheel drive</string>
+    <string name="station_wagon">Station Wagon</string>
+    <string name="sedan">Sedan</string>
+    <string name="sport">Sport</string>
+    <string name="text_view">Summary will be shown here</string>
+    <string name="button">Save</string>
+</resources>
